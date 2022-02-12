@@ -1,0 +1,132 @@
+header, main, footer{
+    max-width: 75%;
+    margin: 1.5em auto;
+}
+body{
+    background-color: #2E294E;
+}
+
+header{
+    font-family: 'Teko',sans-serif;
+    color: #FFFFFA;
+    text-align: center;
+}
+header h2{
+    font-size: 3em;
+}
+
+header h1,h3{
+    font-size: 2.5em;
+}
+
+header>div>img{
+    max-width: 100%;
+}
+
+.chamber{
+    justify-content: center;
+}
+
+header>div,nav ul {
+    display: block;
+}
+
+header>nav>ul{
+    list-style-type: none;
+    background-color: #FFFFFA;
+    padding: .5em;
+}
+
+header nav ul li{
+    font-size: 1.5em;
+}
+
+header>nav>ul>li>a{
+    color: #2e294e;
+    text-decoration: none;
+}
+
+header>nav>ul>li:hover,a:hover{
+    background-color: #0f8b8d;
+    color: #A8201A;
+}
+header>nav>ul{
+    padding: 1em;
+}
+
+header nav ul li{
+    font-size: 1.8em;
+}
+
+main{
+    display: block;
+    background-color: #FFFFFA;
+    border: solid #EC9A29 .3em;
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+table,th,td{
+    border: solid black 1px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+main>h1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.vietnam{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 2.5em;
+}
+
+
+.teko40{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+}
+.teko30{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+.teko20{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+.vietnam25{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 25px;
+}
+
+.vietnam20{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+}
+
+.vietnam16{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+}
+
+#blue{
+    background-color: #2E294E;
+    color:#FFFFFA
+}
+#white{
+    background-color: #FFFFFA;
+    color: #2E294E;
+}
+#white:hover{
+    background-color: #0f8b8d;
+    color: #A8201A;
+}
+
+footer{
+    font-family: 'Teko',sans-serif;
+    color: #FFFFFA;
+    text-align: center;
+    font-size: 1.5em;
+}

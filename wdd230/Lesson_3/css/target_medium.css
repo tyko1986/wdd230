@@ -1,0 +1,49 @@
+@media only screen and (min-width: 32.5em) {
+
+    header>h1{
+        font-size: 3.5em; 
+    }
+
+    header>h2{
+        font-size: 3em;
+    }
+
+    header>div>img{
+        width: 15em;
+    }
+
+    header>div>h2{
+        font-size: 2.5em;
+    }
+    
+
+    header>nav>ul{
+        padding: 1em;
+    }
+    
+    header nav ul li{
+        font-size: 2em;
+    }
+
+    .content>p{
+        font-size: 1.8em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .content>div>p{
+        font-size: 1.8em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .content>ol>li{
+        text-align: left;
+        font-size: 1.8em;
+        margin-left: 1.5em;
+    }
+
+    footer{
+        font-size: 2em;
+    }
+}

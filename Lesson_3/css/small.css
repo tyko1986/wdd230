@@ -1,0 +1,96 @@
+header, main, footer{
+    max-width: 75%;
+    margin: 1.5em auto;
+}
+body{
+    background-color: #2E294E;
+}
+
+header{
+    font-family: 'Teko',sans-serif;
+    color: #FFFFFA;
+    text-align: center;
+}
+
+header h2,h1{
+    font-size: 2.5em;
+}
+
+header>div>img{
+    max-width: 100%;
+}
+
+.chamber{
+    justify-content: center;
+}
+
+header>div,nav ul {
+    display: block;
+}
+
+header>nav>ul{
+    list-style-type: none;
+    background-color: #FFFFFA;
+    padding: .5em;
+}
+
+header nav ul li{
+    font-size: 1.8em;
+}
+
+header>nav>ul>li>a{
+    color: #2e294e;
+    text-decoration: none;
+}
+
+header>nav>ul>li:hover,a:hover{
+    background-color: #0f8b8d;
+    color: #A8201A;
+}
+
+
+
+.content h2{
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    max-width: 95%;
+}
+
+main{
+    display: block;
+}
+.content{
+    display: block;
+    margin: 1em;
+    background-color: #FFFFFA;
+    border: solid #EC9A29 .3em;
+    border-radius: 25px;  
+    font-family: 'Be Vietnam Pro', 'sans-serif'; 
+    text-align: center;
+}
+
+.content h2{
+    font-size: 2em;
+}
+
+.content h3{
+    font-size: 1.8em;
+}
+
+.content h4{
+    font-size: 1.5em;
+}
+.content>p{
+    font-size: 1.3em;
+}
+
+footer{
+    color: #FFFFFA;
+    font-family: 'Teko',sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}

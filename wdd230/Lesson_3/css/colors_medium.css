@@ -1,0 +1,43 @@
+@media screen and (min-width: 60em) {
+ header>div>img{
+    width: 15em;
+}
+
+header>div,nav ul {
+    display: flex;
+}
+
+header>div, nav ul li {
+    flex: 1 1 auto;
+}
+
+header>h1{
+    font-size: 4.5em; 
+}
+header>h2{
+    font-size: 3.5em;
+}
+
+header>div>img{
+    width: 17em;
+}
+
+header>div>h2{
+    font-size: 3.5em;
+}
+
+header>div>h3{
+    font-size: 3.5em;
+}
+footer{
+    font-size: 2em;
+}
+
+header>nav>ul{
+    padding: 1em;
+}
+
+header nav ul li{
+    font-size: 2em;
+}
+}
