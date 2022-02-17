@@ -39,6 +39,10 @@
     grid-area: 1/2/3/4;
     height: 700px;
   }
+  .hero img{
+    height: 100%;
+    width: auto;
+  }
 
   .joinToday {
     top: 40%;
