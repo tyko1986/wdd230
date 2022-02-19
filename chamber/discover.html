@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zarahemla Chamber of Commerce Home Page</title>
     <script defer src="js/script.js"></script>
+    <script defer src="js/lazyLoad.js"></script>
+    <script defer src="js/lastvisit.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,9 +18,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
@@ -60,41 +62,99 @@
       </div>
     </header>
 
-    <main>
-
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-        <picture><img src="images/placeholder.png" data-src="" alt=""></picture>
-
-
+    <main class="mainDiscover">
+      <div class>
+        <img
+          src="images/placeholder.png"
+          data-src="images/new business.jpg"
+          alt="New Business oppening"
+        />
+        <h3>New Bussines Welcome</h3>
+        <p>We are very happy in support all new enterpenuers that want to start a new business in our community.</p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/enviroment.jpg" alt="people collecting garbage" />
+        <h3>Compromissed with Nature</h3>
+        <p>
+          In the Zarahemla Chamber of Commerce we like to take care our
+          enviroment, participate in the many activities we organize during the
+          year.
+        </p>
+      </div>
+      <div>
+        <img
+          src="images/placeholder.png"
+          data-src="images/fishing tournament.jpg"
+          alt="people fishing in the river"
+        />
+        <h3>Annual Fishing Tournament</h3>
+        <p>Come and participate as a family our annual Fishing Tournament.</p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/work.jpg" alt="a workshop" />
+        <h3>Workshops</h3>
+        <p>
+          We worry about our citicents, therefore we promote seminars and
+          workshops to help people learn a job and aquire special hablilities
+          that will help the people and the community.
+        </p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/fair.jpg" alt="community fair" />
+        <h3>Spring Fair</h3>
+        <p>
+          Enjoy of our Annual Spring Fair, wher you can come with your family
+          and friends, fun for kids and adults.
+        </p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/service.jpg" alt="people at service" />
+        <h3>Compromissed with the Community</h3>
+        <p>
+          The Zarahemla Chamber of Commerce worries about the needy, come and be
+          part of our many service programs we have to take care of others.
+        </p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/library.jpg" alt="public library" />
+        <h3>Library</h3>
+        <p>
+          As intitution, we work hard to be a support of the education in our
+          community, we are strong providers of the local Library.
+        </p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/images.jpg" alt="board" />
+        <h3>Meet our Board</h3>
+        <p>Our board is commited with you and the community.</p>
+      </div>
+      <div>
+        <img src="images/placeholder.png" data-src="images/market.jpg" alt="market store" />
+        <h3>Market Day</h3>
+        <p>Participate in the market day, get good products ay good prices.</p>
+      </div>
+     
     </main>
 
     <footer>
-        <img src="images/logo_small_icon_only.webp" alt="Zarahemla small icon" />
-        <div class="chamberAddress">
-          <p>Zarahemla Chamber of Commerce</p>
-          <p>420 Main Ave</p>
-          <p>Zarahemla, Mexico 53950</p>
-        </div>
-        <div class="contactInfo">
-          <p>info@zarahemlacc.com</p>
-          <p>++(52)-5546-4545</p>
-          <p>📍 Location Map</p>
-        </div>
-        <div class="personalInfo">
-          <p id="currentYear"></p>
-          <p>Alberto de la Rosa</p>
-          <p>WDD 230 Project</p>
-          <p id="updatedDate"></p>
-        </div>
-      </footer>
-    </body>
-  </html>
-  
-
+      <img src="images/logo_small_icon_only.webp" alt="Zarahemla small icon" />
+      <div class="chamberAddress">
+        <p>Zarahemla Chamber of Commerce</p>
+        <p>420 Main Ave</p>
+        <p>Zarahemla, Mexico 53950</p>
+      </div>
+      <div class="contactInfo">
+        <p>info@zarahemlacc.com</p>
+        <p>++(52)-5546-4545</p>
+        <p>📍 Location Map</p>
+      </div>
+      <div class="personalInfo">
+        <p id="currentYear"></p>
+        <p>Alberto de la Rosa</p>
+        <p>WDD 230 Project</p>
+        <p id="updatedDate"></p>
+      </div>
+      <span class="lastVisit"></span>
+    </footer>
+  </body>
+</html>

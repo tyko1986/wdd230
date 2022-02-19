@@ -88,3 +88,4 @@ function windChill(temperature, speed){
 }
 
 document.querySelector('#windChill').innerHTML = ` ${windchill} &#8457;`
+

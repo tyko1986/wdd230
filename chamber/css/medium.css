@@ -150,4 +150,23 @@
     font-weight: 600;
     text-decoration: none;
   }
+
+
+/******* DISCOVER PAGE  *******/ 
+.mainDiscover img{
+  margin: 0 auto 1em auto;
+  
 }
+
+.mainDiscover img:hover{
+  opacity: .5;
+  box-shadow: 10px 5px 5px #a8201a;
+}
+
+.mainDiscover{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+}
+

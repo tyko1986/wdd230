@@ -285,5 +285,37 @@ footer img {
 
 .spotlight2 img {
   width: 10rem;
-  /** HOTEL 150 PX WIDTH**/
+  
+}
+
+
+/****** DISCOVER PAGE *******/
+.mainDiscover img[data-src] {
+  filter: blur(0.2em);
+}
+.mainDiscover img {
+  max-width: 100%;
+  transition: filter 0.5s;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.mainDiscover h3{
+  text-align: center;
+  font-family: "Be Vietnam Pro", "sans-serif";
+}
+.mainDiscover p{
+  padding: .5em;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+}
+
+.mainDiscover div{
+  border-radius: 15px;
+}
+
+
+.lastVisit{
+  text-align: center;
+  padding-top: 10px;
 }

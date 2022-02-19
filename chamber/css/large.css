@@ -134,4 +134,15 @@
     margin-bottom: 0;
     font-size: 1.4rem;
   }
+
+
+/*----- DISCOVER PAGE ----- -*/
+
+.mainDiscover{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
 }
