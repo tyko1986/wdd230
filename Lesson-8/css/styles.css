@@ -1,0 +1,76 @@
+:root{
+    --title:#fcca46;
+    --header:#fe7f2d;
+    --rowone:#619b8a;
+    --rowtwo:#a1c181;
+    --line:#233d4d;
+    --shadow:#6c93ab;
+}
+
+body{
+    background-color: #023047;
+}
+main{
+    padding-top: 5em;
+    
+}
+
+table{
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid var(--line);
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 5px 10px 10px var(--shadow);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+caption{
+    background-color: var(--title);
+    padding-top: .5rem;
+    font-size: 1.5em;
+    font-weight:700;
+    border: 1px solid var(--line);
+    box-shadow: 5px 10px 10px var(--shadow);
+}
+
+thead{
+    color: white;
+    background-color: var(--header);
+}
+
+th{
+    padding: .5rem;
+    border: 1px solid var(--line);
+}
+
+tbody{
+    text-align: center;
+}
+
+tbody tr td{
+    padding: .5rem;
+    border: 1px solid var(--line);
+}
+
+tbody>tr:nth-child(odd){
+    background-color: var(--rowone);
+}
+tbody>tr:nth-child(even) {
+    background-color: var(--rowtwo)
+  }
+
+tfoot{
+    background-color: var(--title);
+    text-align: center;
+    font-size: smaller;
+}
+tfoot tr td{
+    padding: .3rem 0 .3rem 0;
+}
+
+.novemberGoal{
+    background-color: var(--header);
+   
+}
