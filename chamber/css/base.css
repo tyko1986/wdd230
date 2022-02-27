@@ -327,7 +327,6 @@ footer img {
   display: flex;
   }
 
-}
 
 form fieldset{
   margin: 2rem 0;
@@ -416,9 +415,6 @@ form label.top input:required:valid{
   
 }
 
-.mainThankyou h{
-  margin: 1;
-}
 
 .mainThankyou h1{
   font-size: 1.8em;

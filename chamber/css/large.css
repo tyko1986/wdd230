@@ -47,7 +47,6 @@
   .joinToday {
     top: 40%;
     left: 60%;
-    scroll-padding: ;
   }
 
   .newRelease {
@@ -98,9 +97,7 @@
     padding: 0.5em 1.4em;
   }
 
-  .spots {
-    display: flexbox;
-  }
+
 
   .spotlight1 {
     margin-bottom: 1px;
