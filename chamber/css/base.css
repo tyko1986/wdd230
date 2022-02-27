@@ -268,7 +268,6 @@ footer img {
 
 .spotlight1 img {
   width: 15rem;
-  /** PRINT AND COPY 200PX WIDTH**/
 }
 
 .spot1email {
@@ -319,3 +318,120 @@ footer img {
   text-align: center;
   padding-top: 10px;
 }
+
+/**** FORM PAGE ****/
+
+.mainJoin{
+  max-width: 690px;
+  margin: auto;
+  display: flex;
+  }
+
+}
+
+form fieldset{
+  margin: 2rem 0;
+  border: 1px solid #0f8b8d;
+  border-radius: 10px;
+}
+
+form legend {
+  color: #0f8b8d;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label{
+  font-family:"Oswald", sans-serif;
+  font-weight: bold;
+}
+
+form label.top input {
+  -wekit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 2px solid #2e294e;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #2e294e;
+  width: 90%;
+  max-width: 20rem;
+  background-color:#ec9a29;
+  font-family: "Be Vietnam Pro", "sans-serif";
+  margin-bottom: 1rem;
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color:#2e294e;
+  font-family: "Be Vietnam Pro", "sans-serif";
+  margin-top: 1.5rem;
+}
+
+form fieldset{
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+
+form fieldset p{
+  font-family: "Be Vietnam Pro", "sans-serif";
+  margin-top: 0;
+}
+
+form input.submit {
+  border: none;
+  background-color: #a8201a;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 1.5rem 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  font-weight: bold;
+  font-family: "Be Vietnam Pro", "sans-serif";
+}
+
+form label.top input:required {
+  border-left: 6px solid red;
+}
+
+form label.top input:required:valid{
+  border-left: 6px solid green;
+}
+
+/******  THANK YOU PAGE *****/
+
+.mainThankyou{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Be Vietnam Pro", "sans-serif";
+}
+
+.mainThankyou img{
+  margin: auto;
+  width: 13em;
+  max-width: 30em;
+  
+}
+
+.mainThankyou h{
+  margin: 1;
+}
+
+.mainThankyou h1{
+  font-size: 1.8em;
+  margin: .5em;
+}
+
+.mainThankyou h2{
+  font-size: 1.3em;
+  margin: .5em;
+}
+
+.mainThankyou h3{
+  font-size: 1em;
+  margin: .5em;
+}
+

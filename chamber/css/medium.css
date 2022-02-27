@@ -168,5 +168,25 @@
   grid-template-columns: 1fr 1fr;
 }
 
+/*--------   JOIN PAGE   ----------*/
+
+
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
+
+form input.submit {
+  height: 4em;  
+}
+
+form fieldset{
+  margin: 0;
+}
+
+}
+
 
