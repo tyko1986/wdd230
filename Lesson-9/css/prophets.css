@@ -1,0 +1,31 @@
+body{
+    background-color: #cfd7c7;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img{
+    border: 7px #cfd7c7 double;
+    border-radius: 100px;
+    margin: 10px;
+    max-width: 250px;
+}
+
+section{
+    background-color:#0b2027;
+    color: white;
+    width: 350px;
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px #40798c;
+}
+
+p{
+    margin: 0;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
