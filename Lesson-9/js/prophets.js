@@ -25,9 +25,7 @@ function displayProphets(prophet) {
     birthDate.textContent = "Birth Date: " + prophet.birthdate;
     placeBirth.textContent = "Place of Birth: " + prophet.birthplace;
     death.textContent = "Date of Death: " + prophet.death;
-    
     let orderPlace = '';
-
 
     if (prophet.order === 1) {
       orderPlace = prophet.order + 'st'
@@ -39,8 +37,6 @@ function displayProphets(prophet) {
       orderPlace = prophet.order + 'th'
     }
 
-
- 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname + ',' + orderPlace + ' ' + 'President of the Church');

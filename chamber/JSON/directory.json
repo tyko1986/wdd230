@@ -1,87 +1,89 @@
-[
+{
+    "directory":[
 {
     "name":"Barnies Bakery",
     "address":"325 Rio Grande St",
     "phone":"956-333-4547",
     "website":"www.barniesbakery.com",
-    "logo":"chamber\images\Logos\bakery.jpg"
+    "logo":"images/Logos/bakery.jpg"
 },
 {
     "name":"California Supermarket",
     "address":"175 Villa Maria Ave.",
     "phone":"956-210-3829",
     "website":"www.californiasm.com",
-    "logo":"chamber\images\Logos\california.jpg"
+    "logo":"images/Logos/california.jpg"
 },
 {
     "name":"Sweets",
     "address":"2525 1st st",
     "phone":"956-123-4567",
     "website":"www.sweetscandyshop.com",
-    "logo":"chamber\images\Logos\candy.jpg"
+    "logo":"images/Logos/candy.jpg"
 },
 {
     "name":"Julio's Car Service",
     "address":"3635 Main Ave",
     "phone":"956-321-9876",
     "website":"www.juliosservice.com",
-    "logo":"chamber\images\Logos\carservice.jpg"
+    "logo":"images/Logos/carservice.jpg"
 },
 {
     "name":"Go in Peace Funeral Homes",
     "address":"894 5th St",
     "phone":"+52-55-1234-5678",
     "website":"www.goinpeace.com",
-    "logo":"chamber\images\Logos\coffin.png"
+    "logo":"images/Logos/coffin.png"
 },
 {
     "name":"Dental Care Center",
     "address":"9797 Glenwwod Dr.",
     "phone":"956-442-7913",
     "website":"www.dentalcarecenter.com",
-    "logo":"chamber\images\Logos\dental.jpg"
+    "logo":"images/Logos/dental.jpg"
 },
 {
     "name":"Body and Spirit Gym",
     "address":"8546 Alton Glore No. 56",
     "phone":"956-222-2324",
     "website":"www.bodynspirit.com",
-    "logo":"chamber\images\Logos\gym.jpg"
+    "logo":"images/Logos/gym.jpg"
 },
 {
     "name":"Hotel California",
     "address":"1802 120th Ave",
     "phone":"+52-55-3636-5252",
     "website":"www.hotelcalifornia.com",
-    "logo":"chamber\images\Logos\h.png"
+    "logo":"images/Logos/h.png"
 },
 {
     "name":"Protect Insurance",
     "address":"2202 120th Ave",
     "phone":"956-654-9872",
     "website":"www.protect.com",
-    "logo":"chamber\images\Logos\insurance.jpg"
+    "logo":"images/Logos/insurance.jpg"
 }  ,
 {
     "name":"Mister Chef Restaurant",
     "address":"223 Texas St",
     "phone":"956-322-2323",
     "website":"www.misterchef.com",
-    "logo":"chamber\images\Logos\misterchef.jpg"
+    "logo":"images/Logos/misterchef.jpg"
 },
 {
     "name":"Print & Copy Services",
     "address":"1005 Zaragoza Loop",
     "phone":"956-975-5241",
     "website":"www.printncopy.com",
-    "logo":"chamber\images\Logos\printer.png"
+    "logo":"images/Logos/printer.png"
 },
 {
     "name":"Galarraga Sports",
     "address":"8533 Old Greens St.",
     "phone":"956-921-0550",
     "website":"www.galarragasports.com",
-    "logo":"chamber\images\Logos\sports.jpg"
+    "logo":"images/Logos/sports.jpg"
 }
 
 ]
+}
