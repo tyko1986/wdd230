@@ -187,6 +187,19 @@ form fieldset{
   margin: 0;
 }
 
+/***-------  DIRECTORY ---------***/
+
+
+.mainDirectory>div.list>section{
+  display:flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.mainDirectory>div.list>section>h3,p{
+  text-align: center;
+}
+
 }
 
 
