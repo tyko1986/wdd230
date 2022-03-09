@@ -1,0 +1,23 @@
+{
+    "coord":{
+        "lon":-147.7164,
+        "lat":64.8378},
+        
+        "weather":[{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01d"}],
+        "base":"stations",
+        
+        "main":{
+        "temp":-0.53,
+        "feels_like":-8.43,
+        "temp_min":-2.24,
+        "temp_max":2.08,
+        "pressure":1033,
+        "humidity":82},
+        "visibility":10000,
+        "wind":{
+            "speed":3.44,
+            "deg":40},"clouds":{"all":0},"dt":1646759314,"sys":{"type":2,"id":2017395,"country":"US","sunrise":1646757270,"sunset":1646796536},"timezone":-32400,"id":5861897,"name":"Fairbanks","cod":200}
