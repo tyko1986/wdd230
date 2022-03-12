@@ -271,6 +271,10 @@ grid-template-columns: 1fr 1fr;
   padding-top: 2rem;
 }
 
+.weather-src{
+  grid-area: 4/1/5/3;
+  padding-bottom: 1rem;
+}
 .newRelease {
   background-color: #ec9a29;
 }
