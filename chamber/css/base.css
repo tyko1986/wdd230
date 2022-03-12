@@ -259,6 +259,17 @@ grid-template-columns: 1fr 1fr;
   font-size:  1.5rem; 
 }
 
+.wind-speed{
+  border-top:#2e294e solid 1px;
+  margin-left: 1rem;
+  padding-top: 2rem;
+}
+
+.wind-chill{
+  border-top:#2e294e solid 1px;
+  margin-right: 1rem;
+  padding-top: 2rem;
+}
 
 .newRelease {
   background-color: #ec9a29;

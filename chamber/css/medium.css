@@ -130,6 +130,17 @@
     font-size: 1.3em;
   }
 
+  .wind-speed{
+    border-top:#2e294e solid 1px;
+    margin: 0 1rem 0 1rem;
+    padding-top: 2rem;
+  }
+  
+  .wind-chill{
+    border-top:none;
+    margin-right: 0;
+    padding-top: 0;
+  }
 
 
   .join {
