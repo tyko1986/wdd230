@@ -114,24 +114,23 @@
   }
 
   .weather {
-    display: block;
-    text-align: center;
+    display:  block;
   }
 
-  .weather img {
-    width: 5em;
-    vertical-align: middle;
-    margin-top: 1em;
-    margin-bottom: 1em;
+  .icon figcaption{
+    font-size: 1em;  
   }
+
+  #current-temp{
+    font-size: 2rem;
+  }
+
 
   .weather h3 {
     font-size: 1.3em;
   }
 
-  .temperature {
-    font-size: 2.3em;
-  }
+
 
   .join {
     padding-top: 1em;

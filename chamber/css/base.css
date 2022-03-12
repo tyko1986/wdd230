@@ -227,21 +227,38 @@ footer img {
   font-weight: 600;
 }
 
+/****   WEATHER   ****/
+.weather h3{
+  grid-area: 1/1/2/3;
+}
+
 .weather {
-  display: flex;
-  justify-content: space-evenly;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
-.weather img {
-  width: 10rem;
-  vertical-align: middle;
-  margin-top: 1em;
-  margin-bottom: 1em;
+#current-temp{
+  font-size: 3rem;
 }
 
-.weatherinfo {
-  text-align: center;
+.icon{
+  margin: 0 auto;
+  
 }
+
+
+#weather-icon {
+  margin: auto;
+  background-color: skyblue;
+  border: #0f8b8d solid 2px;
+  border-radius: 100%;
+}
+
+.weather figcaption{
+  font-size:  1.5rem; 
+}
+
 
 .newRelease {
   background-color: #ec9a29;

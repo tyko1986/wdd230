@@ -67,25 +67,5 @@ function displayBanner() {
   );
 }
 
-//Wind Chill Calculation//
 
-let temperature = document.querySelector('#temperature').textContent;
-let speed = document.querySelector('#windSpeed').textContent;
-let windchill = '';
-
-if (temperature <= 50 && speed > 3){
-  windchill = windChill(temperature,speed);
-} else{
-    windchill = 'N/A';
-  
-}
-
-function windChill(temperature, speed){
-  {
-    windchill = Math.round(35.74 + (0.6215 * temperature) - (35.75 * (Math.pow(speed,0.16))) + (0.4275 * temperature * (Math.pow(speed,0.16)))); 
-    return windchill;
-  }
-}
-
-document.querySelector('#windChill').innerHTML = ` ${windchill} &#8457;`
 
