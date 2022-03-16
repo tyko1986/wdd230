@@ -37,12 +37,13 @@
 
   .hero {
     grid-area: 1/2/3/4;
-    height: 700px;
+    height: 100%;
     margin: auto 0;
     }
   .hero img{
     height: 100%;
     width: auto;
+
   }
 
   .joinToday {

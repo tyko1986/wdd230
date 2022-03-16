@@ -112,6 +112,11 @@ h3 {
   font-family: "Be Vietnam Pro", "sans-serif";
 }
 
+p{
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
 .spots {
   padding: 1em;
 }
@@ -153,8 +158,6 @@ footer img {
   position: relative;
   height: 100%;
   width: auto;
-
-  
 }
 
 .hero img{
@@ -220,12 +223,6 @@ footer img {
   text-shadow: 1px 1px #fffffa;
 }
 
-.event p {
-  padding: 10px;
-  text-align: center;
-  font-size: 1em;
-  font-weight: 600;
-}
 
 /****   WEATHER   ****/
 .weather h3{
@@ -277,6 +274,7 @@ grid-template-columns: 1fr 1fr;
 }
 .newRelease {
   background-color: #ec9a29;
+  padding: 10px;
 }
 .newRelease h3 {
   text-align: center;
@@ -285,12 +283,7 @@ grid-template-columns: 1fr 1fr;
   text-shadow: 1px 1px #fffffa;
 }
 
-.newRelease p {
-  padding: 10px;
-  text-align: center;
-  font-size: 1em;
-  font-weight: 600;
-}
+
 
 .spotlight1 {
   align-items: center;
@@ -464,6 +457,9 @@ form label.top input:required:valid{
 }
 
 /*** DIRECTORY ***/
+
+.iconMenu {cursor:pointer}
+.listMenu {cursor:pointer}
 
 .mainDirectory{
   display: block;
