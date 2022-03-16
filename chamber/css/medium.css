@@ -113,6 +113,11 @@
     margin-right: 1em;
   }
 
+  .visits{
+    margin-top: 1rem;
+    grid-column: span 3;
+  }
+
   .weather {
     display:  block;
   }
