@@ -109,11 +109,11 @@ main div:not(.hero,#cards) {
   border: 3px solid #2e294e;
 }
 
-h3 {
+main h3 {
   font-family: "Be Vietnam Pro", "sans-serif";
 }
 
-p{
+main p{
   font-family: "Oswald", sans-serif;
   font-weight: 600;
 }
@@ -537,6 +537,8 @@ form label.top input:required:valid{
   text-align: center;
 }
 
-
+.contactForm{
+  margin: 2rem auto; 
+}
 
 
