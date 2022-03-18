@@ -105,10 +105,8 @@
   .spotlight1 {
     margin-bottom: 1px;
     grid-row: 1/2;
-    height: 15em;
   }
   .spotlight2 {
-    height: 20em;
     margin-top: 1px;
     margin-bottom: 1px;
     grid-row: 2/3;
@@ -116,7 +114,6 @@
   .spotlight3 {
     grid-row: 3/4;
     text-align: center;
-    height: 25em;
   }
 
   .spotlight3 img {
@@ -126,14 +123,6 @@
     padding-bottom: 0;
   }
 
-  .spotlight3 h3 {
-    font-size: 1.8rem;
-  }
-  .spotlight3 h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1.4rem;
-  }
 
 
 /*----- DISCOVER PAGE ----- -*/

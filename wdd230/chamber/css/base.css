@@ -123,7 +123,7 @@ h3 {
 }
 
 .join,
-.spotlight3 {
+#sl3 {
   display: none;
 }
 
@@ -257,7 +257,7 @@ footer img {
   font-weight: 600;
 }
 
-.spotlight1 {
+#sl1 {
   align-items: center;
   text-align: center;
   margin-bottom: 1.3em;
@@ -275,7 +275,7 @@ footer img {
   margin-right: 1em;
 }
 
-.spotlight2 {
+#sl2 {
   align-items: center;
   text-align: center;
 }
