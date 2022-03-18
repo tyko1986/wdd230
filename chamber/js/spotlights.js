@@ -11,9 +11,11 @@ fetch(requestURL)
     const directory = jsonObject['directory'];
     const goldMembers = directory.filter(x => (x.membership === "silver"));
 
+
     let randomMember1 = goldMembers[Math.floor(Math.random()*goldMembers.length)];
     let randomMember2 = goldMembers[Math.floor(Math.random()*goldMembers.length)];
     let randomMember3 = goldMembers[Math.floor(Math.random()*goldMembers.length)];
+    
     //goldMembers.forEach(displayGoldenMembers);
 
     displayGoldMembers(randomMember1,spot1);
@@ -55,4 +57,5 @@ function displayGoldMembers(randomMember,spot){
     card.appendChild(website);
 
     spot.appendChild(card);
-}    
+}  
+
