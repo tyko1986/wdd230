@@ -165,6 +165,7 @@ footer img {
  height: 100%;
   max-width: 100%;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 .hero > h3 {
