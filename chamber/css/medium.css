@@ -215,6 +215,21 @@ form fieldset{
   text-align: center;
 }
 
+
+/********* CONTACT *******/
+
+.mainContact{
+  display: flex;
+  flex-direction:column;
+}
+
+.mainContact form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 }
 
 

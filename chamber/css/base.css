@@ -1,3 +1,4 @@
+
 body {
   max-width: 75%;
   margin: auto;
@@ -520,6 +521,20 @@ form label.top input:required:valid{
 
 .list{
   display:block;  
+}
+
+/****** CONTACT PAGE   *********/
+
+.zarahemlacc{
+  width: 100%;
+}
+
+.chamberInfo{
+  margin-top: 2rem;
+  border-top: #a8201a solid 2px;
+  border-bottom: #a8201a solid 2px;
+  color: #2e294e;
+  text-align: center;
 }
 
 

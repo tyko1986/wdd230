@@ -150,7 +150,29 @@
   padding-top: 3rem;
 }
 
-/* ------- DIRECTORY ---------- */
+/* ------- CONTACT ---------- */
+
+
+.mainContact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem;
+}
+
+
+.chamberInfo{
+  grid-area: 1/1/2/2;
+}
+
+
+.zarahemlacc{
+  grid-area: 1/2/2/3;
+  margin: 2rem;
+}
+
+.mainContact form{
+  grid-area: 2/1/3/2;  
+}
 
 
 }
