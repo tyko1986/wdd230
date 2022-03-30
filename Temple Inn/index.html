@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="The Temple Inn & Suites Hotel Home Page"
+      content="Home Page of the Temple Inn & Suites Web Site"
+    />
+    <script defer src="JS/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;
+    900&family=EB+Garamond:ital,wght@0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="CSS/base.css" />
+    <link rel="stylesheet" href="CSS/medium.css" />
+    <link rel="stylesheet" href="CSS/large.css" />
+    <title>Temple Inn & Suites Hotel Home Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerName">
+        <img
+          class="headerLogo"
+          src="Images/Logos/logo_small_temple.png"
+          alt="The Temple Inn & Suites Hotel Logo"
+        />
+        <h1>The Temple Inn & Suites Hotel</h1>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      </div>
+    <div class="headerMenu">    
+      <nav class="menu">
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Temple</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </div> 
+    </header>
+
+    <main>
+      <figure class="heroImageFigure">
+        <img
+          class="heroImage"
+          src="Images/heroImg.jpg"
+          alt="Mexico City Temple"
+        />
+        <a class="actionBtn" href="">Make a Reservation</a>
+      </figure>
+      
+      <div class="weatherDiv">
+      <section class='currentWeather'>
+        <h3>Weather Conditions</h3>
+        <figure>
+          <img id="currentWeatherIcon" src="" alt="">
+          <figcaption id="currentWeatherDescription"></figcaption>
+        </figure>   
+        <p class="temp"><span id="current-temp"></span> &#8457;</p>
+        <p class="wind-speed">Wind Speed:<span id="windspeed"></span> MPH</p>
+        <p class="wind-chill">Wind chill:<span id="windChillTemp"></span></p>
+        <a class="weather-src" href="">Source: OpenWeatherMap.</a>
+      </section>
+        
+        <section class="forecast1">
+        <figure>
+          <img id="firstIcon" src="" alt="" />
+          <figcaption id="firstCondition"></figcaption>
+        </figure>
+          <p class="temp"><span id="firstTemperature"></span> &#8457;</p>
+        </section>
+
+        <section class="forecast2">
+          <figure>
+            <img id="secondIcon" src="" alt="" />
+            <figcaption id="secondCondition"></figcaption>
+          </figure>
+          <p class="temp"><span id="secondTemperature"></span> &#8457;</p>
+        </section>
+
+        <section class="forecast3">
+          <figure>
+            <img id="thirdIcon" src="" alt="" />
+            <figcaption id="thirdCondition"></figcaption>
+          </figure>
+          <p class="temp"><span id="thirdTemperature"></span> &#8457;</p>
+        </section>
+      </div>
+
+      <div class="infoDiv">
+        <img
+          class="homeTempleImg"
+          src="Images/temples/recife.jpg"
+          alt="Recife PE, Brazil Temple"
+        />
+        <img
+          class="hotelInfoImg"
+          src="Images/reception.jpg"
+          alt="Temple Inn & Suites Hotel Front Desk"
+        />
+        <p class="homeTempleInfo">
+          <strong>COME VISIT US</strong> <br />
+          We have a new location in South America <br />
+          Enjoy of our services and visit the Recife Temple <br />
+          <br />
+          <strong>Address</strong> <br />
+          Rua Dr. José de Góes, 280 <br />
+          Parnamirim <br />
+          Recife - PE, Brazil <br />
+          52060-380 <br /><br />
+          <strong>Phone</strong> <br />
+          (55) 81-2129-4300
+        </p>
+        <p class="hotelInfo">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est
+          obcaecati eos facere a ex perspiciatis blanditiis ab iusto fugit,
+          explicabo eius voluptates officiis. Adipisci esse sapiente odit quo
+          unde.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <img
+        class="footerLogo"
+        src="Images/Logos/logo_small_icon_only(1).png"
+        alt="The Temple Inn & Suites Hotel Logo"
+      />
+      <div class="address">
+        <p>Temple Inn & Suites</p>
+        <p>5520 Wisconsin Ave</p>
+        <p>Chevy Chase, MD 20815</p>
+        <p>United States</p>
+      </div>
+      <div class="contactInfo">
+        <p>Ph. 301-656-1500</p>
+        <p>wwww.templeinnsuites.com</p>
+        <p>info@templeinnsuites.com</p>
+      </div>
+      <div class="socialIcons">
+        <a href="faceboook.com">
+          <img class="facebookIcon" src="images/face.png" alt="facebook icon" />
+        </a>
+
+        <a href="Instagram.com">
+          <img
+            class="instagramIcon"
+            src="images/linkedin.png"
+            alt="Linkedin icon"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

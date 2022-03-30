@@ -1,0 +1,72 @@
+@media only screen and (min-width: 40rem) {
+
+    .actionBtn{
+        top: 60%;
+        left: 70%;
+        }
+
+        .weatherDiv{
+            display: flex;
+            justify-content: space-around;
+          
+          }
+        
+          .currentWeather{
+            grid-area: 1/1/2/4;
+            grid-column: 3 span;
+            text-align: center;
+            align-self: center;
+            margin-bottom: 1rem;
+          }
+        
+    .forecast1, .forecast2, .forecast3{
+      background-color: var(--pink);
+      border: 1px solid black;
+    }
+
+    .infoDiv{
+        display: flex;
+    }
+
+    .homeTempleImg{
+        width: 50%
+    }
+
+    footer{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    
+   
+        .footerLogo{
+            margin-left: 1rem;
+            margin-right: 1rem;
+          }
+    
+.address{
+    border-right: 3px solid black;
+    border-bottom: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right:.5rem;
+}
+
+
+.socialIcons{
+    margin-right: 1rem;
+    margin-left: .5rem;
+    display: flex;
+}
+
+.facebookIcon{
+    width: 3rem;
+  }
+
+  .instagramIcon{
+    width: 3rem;
+    border-radius: 100%;
+  }
+
+
+}

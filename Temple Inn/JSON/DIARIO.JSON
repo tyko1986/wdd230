@@ -1,0 +1,43 @@
+{
+    "base": "stations",
+    "clouds": {
+        "all": 20
+    },
+    "cod": 200,
+    "coord": {
+        "lon": -95.3633,
+        "lat": 29.7633
+    },
+    "dt": 1648260052,
+    "id": 4699066,
+    "main": {
+        "temp": 68.95,
+        "feels_like": 67.48,
+        "temp_min": 61.92,
+        "temp_max": 72.09,
+        "pressure": 1017,
+        "humidity": 41
+    },
+    "name": "Houston",
+    "sys": {
+        "type": 2,
+        "id": 2001415,
+        "country": "US",
+        "sunrise": 1648210749,
+        "sunset": 1648254929
+    },
+    "timezone": -18000,
+    "visibility": 10000,
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+        }
+    ],
+    "wind": {
+        "speed": 13.8,
+        "deg": 170
+    }
+}

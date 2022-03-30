@@ -1,0 +1,252 @@
+:root{
+    --blue: #476A6F;
+    --green: #7EB09B;
+    --pink: #F7DAD9;
+    --grey: #C5C9A4;
+    --headerFont: 'Cinzel','serif';
+    --mainFont: 'EB Garamond', 'serif';
+}
+
+h1,h2,h3{
+  font-family: var(--headerFont);
+}
+
+p,a{
+  font-family: var(--mainFont);
+}
+
+.headerName{
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+
+}
+
+.headerName h1{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.headerLogo{
+    background-color: black;
+    width: 5rem;
+    border-radius: 1em;
+    margin-left: 1rem;  
+}
+
+.headerMenu.open{
+ display: none;
+  background-color: var(--green);
+  padding: 1rem 0 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  nav ul a {
+    display: block;
+    padding: 0.4rem 2vw;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    border-top: 1px solid var(--pink);
+    background-color: var(--green);
+  }
+  
+  nav ul li a:hover {
+    background-color: var(--pink);
+  }
+  
+  nav ul li a:active {
+    background-color: var(--blue);
+    color: var(--pink);
+  }
+  
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: block;
+  }
+  
+  #hamburgerBtn span:nth-child(1) {
+    display: block;
+  }
+  
+  #hamburgerBtn span:nth-child(2) {
+    display: none;
+  }
+  
+  #hamburgerBtn.open span:nth-child(1) {
+    display: none;
+  }
+  
+  #hamburgerBtn.open span:nth-child(2) {
+    display: block;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    color: var(--blue);
+    font-size: 2rem;
+    padding-right: 1rem;
+  }
+
+  .heroImageFigure{
+    border: solid 3rem var(--grey);
+    margin: 1rem 0;
+    border-radius: 50px;
+  }
+
+  .heroImage{
+    width: 100%;
+    border: solid 3px black;
+    box-shadow: 15px 10px 5px;
+
+  }
+
+  .actionBtn{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  background-color: var(--blue);
+  opacity: 0.6;
+  padding: .5rem;
+  font-size: 1.1em;
+  border-radius: 20px;
+  border: 2px solid var(--pink);
+  color: var(--grey);
+  font-family: var(--mainFont);
+  font-weight: 800;
+  text-decoration: none;
+  }
+  .actionBtn:hover{
+    opacity: 1;
+  }
+
+  .weatherDiv{
+    background-color: var(--grey);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+  }
+
+  .currentWeather{
+    grid-area: 1/1/2/4;
+    grid-column: 3 span;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .currentWeather p,img{
+    margin: 0;
+    font-size: 1rem;
+  }
+
+
+
+  #current-temp{
+    font-size: 2rem;
+  }
+  .currentWeather h3{
+    margin-bottom: 0;
+  }
+
+  .temp{
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+
+.forecast1{
+  grid-area: 2/1/3/2;
+  font-size: .8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.forecast2{
+  grid-area: 2/2/3/3;
+  font-size: .8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.forecast3{
+  grid-area: 2/3/3/4;
+  font-size: .8rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+  .forecast1, .forecast2, .forecast3 {
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  .homeTempleInfo{
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .homeTempleImg{
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+  }
+  .hotelInfo, .hotelInfoImg{
+    display: none;
+  }
+
+  footer{
+    background-color: var(--grey);
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .footerLogo{
+    border-radius: 100%;
+    width: 5rem;
+    margin: 1rem auto;
+    padding-top: 2rem;
+    display: block;
+  }
+
+  .address{
+    border-bottom: 3px solid black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .facebookIcon{
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  .instagramIcon{
+    width: 3rem;
+    border-radius: 100%;
+    margin-left: 1rem;
+  }
+
+  main{
+    max-width: 1300px;
+    margin: 0 auto;    
+  }
+
+  footer, header{
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+

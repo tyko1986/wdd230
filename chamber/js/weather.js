@@ -20,6 +20,8 @@ fetch(apiURL)
 
 
 
+
+
       //Wind Chill Calculation//
 
 let temperature = Number(jsObject.main.temp);
