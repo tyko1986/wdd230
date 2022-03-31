@@ -1,0 +1,36 @@
+{
+    "temples":[
+{
+    "name":"Cardston Temple",
+    "address":"348 3rd St W",
+    "phone":"403-653-3552",
+    "picture":"Images/temples/cardston.jpg"
+},
+{
+    "name":"Houston Temple",
+    "address":"15725 Champion Forest Dr",
+    "phone":"281-376-6804",
+    "picture":"Images/temples/houston.jpg"
+},
+{
+    "name":"Monterrey Temple",
+    "address":"Av. Eugenio Garza Sada Esq Priv Valle de la Estanzuela",
+    "phone":"81-8104-0635",
+    "logo":"Images/temples/monterrey.jpg"
+},
+{
+    "name":"Recife Temple",
+    "address":"Rua Dr. Jose de Goes, 280",
+    "phone":"81-2129-4300",
+    "logo":"Images/temples/recife.jpg"
+},
+{
+    "name":"Salt Lake Temple",
+    "address":"50 W North Temple St",
+    "phone":"841-509-709",
+    "logo":"Images/temples/saltLake.jpg"
+}
+
+
+]
+}
