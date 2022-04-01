@@ -36,6 +36,25 @@ p,a{
     margin-left: 1rem;  
 }
 
+.datenbtn{
+  background-color: var(--blue);
+  text-align: center;
+  padding:0.5rem;
+  font-weight: 800;
+  
+}
+
+.datenbtn p{
+  color: var(--grey);
+}
+
+.headerMenu{
+  display: block;
+  background-color: var(--green);
+  padding: 1rem 0 1rem 0;
+     
+}
+
 .headerMenu.open{
  display: none;
   background-color: var(--green);
@@ -95,22 +114,16 @@ nav ul {
   button {
     background-color: transparent;
     border: none;
-    color: var(--blue);
+    color: var(--pink);
     font-size: 2rem;
     padding-right: 1rem;
   }
 
-  .heroImageFigure{
-    border: solid 3rem var(--grey);
-    margin: 1rem 0;
-    border-radius: 50px;
-  }
+
 
   .heroImage{
     width: 100%;
-    border: solid 3px black;
-    box-shadow: 15px 10px 5px;
-
+    border: solid 1px black;
   }
 
   .actionBtn{

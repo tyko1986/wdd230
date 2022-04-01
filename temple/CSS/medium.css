@@ -1,5 +1,15 @@
 @media only screen and (min-width: 40rem) {
 
+  .datenbtn{
+    box-shadow: var(--green) 15px 10px 5px;
+}
+
+.heroImage{
+  border: solid 3px black;
+  box-shadow: 15px 10px 5px;
+
+}
+
     .actionBtn{
         top: 60%;
         left: 70%;
