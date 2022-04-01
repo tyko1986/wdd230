@@ -106,7 +106,7 @@ const year = new Date();
 const currentYear = year.getFullYear();
 document.getElementById(
   "currentYear"
-).innerHTML = `&copy; ${currentYear} Zarahemla Chamber`;
+).innerHTML = `&copy; ${currentYear} The Temple Inn & Suites Hotel`;
 
 //* Todays Date*//
 
@@ -136,13 +136,17 @@ const days = [
 
 const month = year.getMonth();
 const dayNumber = year.getDate();
-const day = number(year.getDay());
-
-let firstDay = day + 1;
-let secondDay = day + 2;
-
+const day = year.getDay();
 
 let monthName = months[month];
 let dayName = days[day];
 
-document.getElementById("today_date").innerHTML = `${dayName}, ${dayNumber} ${monthName} ${currentYear}`;
+document.getElementById(
+  "today_date"
+).innerHTML = `${dayName}, ${dayNumber} ${monthName} ${currentYear}`;
+
+
+
+/******** TEMPLES CARDS ***********/
+
+/*https://github.com/tyko1986/wdd230/blob/main/temple/JSON/temples.JSON*/
