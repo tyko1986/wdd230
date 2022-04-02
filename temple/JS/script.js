@@ -7,12 +7,24 @@ function toggleMenu() {
   const x = document.getElementById("hamburgerBtn");
   
   x.onclick = toggleMenu;
+
+  /* Alerts Btn */
+
+  function closeAlert(){
+
+    document.querySelector('.alert').classList.toggle('unvisible');
+  }
+  
+  const btn = document.getElementById('alertBtn');
+
+  btn.onclick = closeAlert;
+
   
 
-//*** WEATHER ***/
+//*** WEATHER 38.98 -77.10***/
 
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/onecall?lat=38.98&lon=77.09&exclude=minutely,hourly&appid=f2bc956b956e1c5893f7a9079b13c5a1&units=imperial";
+  "https://api.openweathermap.org/data/2.5/onecall?lat=72&lon=70&exclude=minutely,hourly&appid=f2bc956b956e1c5893f7a9079b13c5a1&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -30,6 +42,19 @@ fetch(apiURL)
 
     const windspeed = jsObject.current.wind_speed;
     document.querySelector("#windspeed").textContent = windspeed;
+
+    /* Weather Alerts  */
+
+    
+    
+    if ('alerts' in jsObject === false){
+      document.querySelector('#alert').innerHTML = `NO WARNING ALERTS !!!`;
+      document.querySelector('.alert').classList.toggle('unvisible');
+    }else{
+      let weatherAlert = jsObject.alerts[0].event;
+      document.querySelector('#alert').innerHTML = `WARNING ${weatherAlert} ALERT !!!`;  
+    }
+    
 
     /* Temperature Forecast */
     const firstDayTemp = Math.round(Number(jsObject.daily[0].temp.day));
@@ -91,6 +116,7 @@ document.querySelector('#windChillTemp').innerHTML = `${windchill} &#8457;`
 });
 
 
+
 function capitalize(word){
   return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
 }
@@ -136,16 +162,44 @@ const days = [
 
 const month = year.getMonth();
 const dayNumber = year.getDate();
-const day = year.getDay();
+let day = Number(year.getDay());
+
 
 let monthName = months[month];
 let dayName = days[day];
+
+let tomorrow = '';
+let tomorrow2 = '';
+let tomorrow3 = '';
+
+
+if(day === 4){
+  tomorrow = days[day+1];
+  tomorrow2 = days[day+2];
+  tomorrow3 = days[day-4]; 
+} else if (day === 5){
+  tomorrow = days[day+1];
+  tomorrow2 = days[day-5];
+  tomorrow3 = days[day-4];
+} else if (day === 6){
+  tomorrow = days[day-6];
+  tomorrow2 = days[day-5];
+  tomorrow3 = days[day-4];
+}else {
+  tomorrow = days[day+1];
+  tomorrow2 = days[day+2];
+  tomorrow3 = days[day+3];
+}
+
+let dayAfterTomorrow = days[day+2];
 
 document.getElementById(
   "today_date"
 ).innerHTML = `${dayName}, ${dayNumber} ${monthName} ${currentYear}`;
 
-
+document.querySelector('#firstDay').innerHTML = `${tomorrow}`;
+document.querySelector('#secondDay').innerHTML = `${tomorrow2}`;
+document.querySelector('#thirdDay').innerHTML = `${tomorrow3}`;
 
 /******** TEMPLES CARDS ***********/
 

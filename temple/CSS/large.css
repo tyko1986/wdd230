@@ -1,5 +1,11 @@
 @media only screen and (min-width: 70rem){
 
+
+    .headerName h1{
+        font-size: 3rem;
+      }
+
+
     #hamburgerBtn {
         display: none;
       }
@@ -12,9 +18,14 @@
 
       nav ul a{
         border-top: none;
+        font-size: 2rem;
     }
 
-
+.actionBtn{
+    top: 75%;
+    left: 50%;
+    font-size: 1.8rem;
+}
   
 
    
@@ -77,10 +88,23 @@
         align-self: center;
       }
 
-    
+      .currentWeather section figure{
+          margin: 0;
+      }
+
+      h4{
+          margin: 0;
+          font-size: 1.5rem;
+      }
+
+      .temp{
+        font-size: 3rem;
+        margin:0;
+      }
 
       .forecast1{
-          grid-area: 2/1/3/2;    
+          grid-area: 2/1/3/2; 
+             
     }
 
       .forecast2{
@@ -93,12 +117,20 @@
 
 
       .forecast1, .forecast2, .forecast3{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
+        
         width: 90%;
         justify-content:flex-start;
         border: 3px black solid;
         box-shadow: 5px 10px 5px var(--blue);
+      }
+
+      footer{
+          font-size: 1.3rem;
+      }
+
+      .footerLogo{
+          width: 9rem;
+          height: 9rem;
       }
     
 

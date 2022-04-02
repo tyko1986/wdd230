@@ -20,9 +20,17 @@
     <link rel="stylesheet" href="CSS/base.css" />
     <link rel="stylesheet" href="CSS/medium.css" />
     <link rel="stylesheet" href="CSS/large.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Temple Inn & Suites Hotel Home Page</title>
   </head>
   <body>
+    <div class="alert">
+      <p id="alert"></p>
+      <button id="alertBtn"><span>X</span></button>
+    </div>
     <header>
       <div class="headerName">
         <img
@@ -72,7 +80,8 @@
       </section>
         
         <section class="forecast1">
-        <figure>
+        <h4 id="firstDay"></h4>
+          <figure>
           <img id="firstIcon" src="" alt="" />
           <figcaption id="firstCondition"></figcaption>
         </figure>
@@ -80,6 +89,7 @@
         </section>
 
         <section class="forecast2">
+          <h4 id="secondDay"></h4>
           <figure>
             <img id="secondIcon" src="" alt="" />
             <figcaption id="secondCondition"></figcaption>
@@ -88,6 +98,7 @@
         </section>
 
         <section class="forecast3">
+          <h4 id="thirdDay"></h4>
           <figure>
             <img id="thirdIcon" src="" alt="" />
             <figcaption id="thirdCondition"></figcaption>
@@ -129,37 +140,47 @@
       </div>
     </main>
     <footer>
-      <img
+      <div class="footer1">
+        <img
         class="footerLogo"
-        src="Images/Logos/logo_small_icon_only(1).png"
+        src="Images/Logos/logo_small_icon_only_inverted.png"
         alt="The Temple Inn & Suites Hotel Logo"
       />
-      <div class="address">
-        <p>Temple Inn & Suites</p>
-        <p>4800 Montgomery Ln #300</p>
-        <p>Bethesda, MD 20814</p>
-        <p>United States</p>
+      <section class="hotelData">
+        <div class="address">
+          <p>Temple Inn & Suites</p>
+          <p>4800 Montgomery Ln #300</p>
+          <p>Bethesda, MD 20814</p>
+          <p>United States</p>
+        </div>
+        <div class="contactInfo">
+          <p>Ph. 301-656-1500</p>
+          <p>wwww.templeinnsuites.com</p>
+          <p>info@templeinnsuites.com</p>
+          <a href="https://goo.gl/maps/a46FqL5jhoioq7uE6"><i class='fa-solid fa-location-dot' style='color:#476a6f'></i>  - Here we are</a>
+        </div>
+      </section>
+      
       </div>
-      <div class="contactInfo">
-        <p>Ph. 301-656-1500</p>
-        <p>wwww.templeinnsuites.com</p>
-        <p>info@templeinnsuites.com</p>
+      
+      <div class="footer2">
+        <div class="socialIcons">
+          <a href="faceboook.com">
+            <img class="facebookIcon" src="Images/face.png" alt="facebook icon" />
+          </a>
+  
+          <a href="Instagram.com">
+            <img
+              class="instagramIcon"
+              src="Images/linkedin.png"
+              alt="Linkedin icon"
+            />
+          </a>
+        </div>
+        <p id="updatedDate"></p>
+        <p id="currentYear"></p>
       </div>
-      <div class="socialIcons">
-        <a href="faceboook.com">
-          <img class="facebookIcon" src="Images/face.png" alt="facebook icon" />
-        </a>
-
-        <a href="Instagram.com">
-          <img
-            class="instagramIcon"
-            src="Images/linkedin.png"
-            alt="Linkedin icon"
-          />
-        </a>
-      </div>
-      <p id="updatedDate"></p>
-      <p id="currentYear"></p>
+      
     </footer>
   </body>
 </html>
