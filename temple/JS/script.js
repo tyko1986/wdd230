@@ -24,7 +24,7 @@ function toggleMenu() {
 //*** WEATHER 38.98 -77.10***/
 
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/onecall?lat=72&lon=70&exclude=minutely,hourly&appid=f2bc956b956e1c5893f7a9079b13c5a1&units=imperial";
+  "https://api.openweathermap.org/data/2.5/onecall?lat=38.98&lon=-77.10&exclude=minutely,hourly&appid=f2bc956b956e1c5893f7a9079b13c5a1&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {

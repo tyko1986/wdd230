@@ -16,28 +16,41 @@
     900&family=EB+Garamond:ital,wght@0,800;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="CSS/base.css"/>
-    <link rel="stylesheet" href="CSS/medium.css"/>
-    <link rel="stylesheet" href="CSS/large.css"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="CSS/base.css" />
+    <link rel="stylesheet" href="CSS/medium.css" />
+    <link rel="stylesheet" href="CSS/large.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Temple Inn & Suites Hotel Home Page</title>
   </head>
   <body>
+    <div class="alert">
+      <p id="alert"></p>
+      <button id="alertBtn"><span>X</span></button>
+    </div>
     <header>
       <div class="headerName">
         <img
           class="headerLogo"
-          src="Images/Logos/logo_small_icon_only_inverted.png"
+          src="Images/Logos/logo_small_temple.png"
           alt="The Temple Inn & Suites Hotel Logo"
         />
         <h1>The Temple Inn & Suites Hotel</h1>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <p class="datenbtn" id="today_date"></p>
+          
+        
       </div>
-    <div class="headerMenu">    
+    <div class="headerMenu">
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>    
       <nav class="menu">
         <ul id="primaryNav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Temple</a></li>
+          <li><a href="temple.html">Temple</a></li>
           <li><a href="#">Reservations</a></li>
           <li><a href="#">Services</a></li>
         </ul>
@@ -45,43 +58,68 @@
     </div> 
     </header>
 
-    <main>
+    <main class="templeMain">
 
-        <div class="google">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1550.7024638466573!2d-77.09662614185055!3d38.98325387985163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c98c0bda2181%3A0xe8ffe07c69d0aabe!2sTemple%20Inn%20%26%20Suites!5e0!3m2!1sen!2smx!4v1648850105999!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-     
+      <div class="templeCard">
+
+        <img class="templePicture" src="" alt="">
+        <h3 class="templeName"></h3>
+        <p class="address"></p> 
+        <p class="phone"></p> 
+        <p class="email"></p> 
+        <p class="services"></p> 
+        <p class="history"></p> 
+        <p class="ordinances"></p> 
+        <p class="sesions"></p> 
+        <p class="closure"></p>
+
+      </div>
+
+
+      
     </main>
     <footer>
-      <img
+      <div class="footer1">
+        <img
         class="footerLogo"
-        src="Images/Logos/logo_small_icon_only(1).png"
+        src="Images/Logos/logo_small_icon_only_inverted.png"
         alt="The Temple Inn & Suites Hotel Logo"
       />
-      <div class="address">
-        <p>Temple Inn & Suites</p>
-        <p>4800 Montgomery Ln #300</p>
-        <p>Bethesda, MD 20814</p>
-        <p>United States</p>
+      <section class="hotelData">
+        <div class="address">
+          <p>Temple Inn & Suites</p>
+          <p>4800 Montgomery Ln #300</p>
+          <p>Bethesda, MD 20814</p>
+          <p>United States</p>
+        </div>
+        <div class="contactInfo">
+          <p>Ph. 301-656-1500</p>
+          <p>wwww.templeinnsuites.com</p>
+          <p>info@templeinnsuites.com</p>
+          <a href="https://goo.gl/maps/a46FqL5jhoioq7uE6"><i class='fa-solid fa-location-dot' style='color:#476a6f'></i>  - Here we are</a>
+        </div>
+      </section>
+      
       </div>
-      <div class="contactInfo">
-        <p>Ph. 301-656-1500</p>
-        <p>wwww.templeinnsuites.com</p>
-        <p>info@templeinnsuites.com</p>
+      
+      <div class="footer2">
+        <div class="socialIcons">
+          <a href="faceboook.com">
+            <img class="facebookIcon" src="Images/face.png" alt="facebook icon" />
+          </a>
+  
+          <a href="Instagram.com">
+            <img
+              class="instagramIcon"
+              src="Images/linkedin.png"
+              alt="Linkedin icon"
+            />
+          </a>
+        </div>
+        <p id="updatedDate"></p>
+        <p id="currentYear"></p>
       </div>
-      <div class="socialIcons">
-        <a href="faceboook.com">
-          <img class="facebookIcon" src="Images/face.png" alt="facebook icon" />
-        </a>
-
-        <a href="Instagram.com">
-          <img
-            class="instagramIcon"
-            src="Images/linkedin.png"
-            alt="Linkedin icon"
-          />
-        </a>
-      </div>
+      
     </footer>
   </body>
 </html>
