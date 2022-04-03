@@ -1,0 +1,144 @@
+{
+    "temples": [
+        {
+            "name": "Washington DC Temple",
+            "address": "9900 Stoneybrook Dr",
+            "phone": "301-588-0650",
+            "picture": "Images/temples/washington.jpg",
+            "email": "cardston_temple@churchofjesuschrist.org",
+            "services": "Clothing rental available, Distribution center nearby",
+            "history": [
+                {
+                    "announced": "15 November 1968",
+                    "groundbreaking": "7 December 1968",
+                    "dedicated": "19 November 1974"
+                }
+            ],
+            "ordinance_schedule": [
+                {
+                    "between_week": "9:00 AM to 8:00 PM",
+                    "weekends": "6:00 AM to 9:00 PM"
+                }
+            ],
+            "session_schedule": [
+                {
+                    "between_week": "9:00 - 11:00, 11:00 - 13:00, 14:00 - 16:00, 16:00 - 18:00, 18:00 - 20:00",
+                    "weekends": "6:00 - 8:00, 8:00 - 10:00, 10:00 - 12:00, 13:00 - 15:00, 15:00 - 17:00, 17:00 - 19:00, 19:00 - 21:00"
+                }
+            ],
+            "closure_schedule": "Temple Closed during renovation"
+        },
+        {
+            "name": "Houston Temple",
+            "address": "15725 Champion Forest Dr",
+            "phone": "281-376-6804",
+            "picture": "Images/temples/houston.jpg",
+            "email": "houston_temple@churchofjesuschrist.org",
+            "services": "Clothing rental available, Distribution center nearby",
+            "history": [
+                {
+                    "announced": "30 September 1997",
+                    "groundbreaking": "13 June 1998",
+                    "dedicated": "26 August 2000 and Reddicated 22 April 2018"
+                }
+            ],
+            "ordinance_schedule": [
+                {
+                    "between_week": "9:00 AM to 8:00 PM",
+                    "weekends": "6:00 AM to 9:00 PM"
+                }
+            ],
+            "session_schedule": [
+                {
+                    "between_week": "9:00 - 11:00, 11:00 - 13:00, 14:00 - 16:00, 16:00 - 18:00, 18:00 - 20:00",
+                    "weekends": "6:00 - 8:00, 8:00 - 10:00, 10:00 - 12:00, 13:00 - 15:00, 15:00 - 17:00, 17:00 - 19:00, 19:00 - 21:00"
+                }
+            ],
+            "closure_schedule": "Saturday, 2 April 2022 - Monday, 29 August 2022 - Monday, 19 September 2022 - Saturday, 1 October 2022 - Wednesday, 23 November 2022 (Limited Operations) - Thursday, 24 November 2022 - Saturday, 24 December 2022 - Saturday, 31 December 2022 (Limited Operations)"
+        },
+        {
+            "name": "Monterrey Temple",
+            "address": "Av. Eugenio Garza Sada Esq Priv Valle de la Estanzuela",
+            "phone": "81-8104-0635",
+            "picture": "Images/temples/monterrey.jpg",
+            "email": "monterrey_temple@churchofjesuschrist.org",
+            "services": "Distribution Center neraby",
+            "history": [
+                {
+                    "announced": "21 December 1995",
+                    "groundbreaking": "4 November 2000",
+                    "dedicated": "28 April 2002"
+                }
+            ],
+            "ordinance_schedule": [
+                {
+                    "between_week": "9:00 AM to 8:00 PM",
+                    "weekends": "6:00 AM to 9:00 PM"
+                }
+            ],
+            "session_schedule": [
+                {
+                    "between_week": "9:00 - 11:00, 11:00 - 13:00, 14:00 - 16:00, 16:00 - 18:00, 18:00 - 20:00",
+                    "weekends": "6:00 - 8:00, 8:00 - 10:00, 10:00 - 12:00, 13:00 - 15:00, 15:00 - 17:00, 17:00 - 19:00, 19:00 - 21:00"
+                }
+            ],
+            "closure_schedule": "Saturday, 2 April 2022 - Monday, 18 July 2022 - Monday, 1 August 2022 - Saturday, 1 October 2022 - Saturday, 24 December 2022 - Saturday, 31 December 2022"
+        },
+        {
+            "name": "Recife Temple",
+            "address": "Rua Dr. Jose de Goes, 280",
+            "phone": "81-2129-4300",
+            "picture": "Images/temples/recife.jpg",
+            "email": "recife_temple@churchofjesuschrist.org",
+            "services": "Patron housing available, Distribution center nearby",
+            "history": [
+                {
+                    "announced": "13 January 1995",
+                    "groundbreaking": "15 November 1996",
+                    "dedicated": "15 December 2000"
+                }
+            ],
+            "ordinance_schedule": [
+                {
+                    "between_week": "9:00 AM to 8:00 PM",
+                    "weekends": "6:00 AM to 9:00 PM"
+                }
+            ],
+            "session_schedule": [
+                {
+                    "between_week": "9:00 - 11:00, 11:00 - 13:00, 14:00 - 16:00, 16:00 - 18:00, 18:00 - 20:00",
+                    "weekends": "6:00 - 8:00, 8:00 - 10:00, 10:00 - 12:00, 13:00 - 15:00, 15:00 - 17:00, 17:00 - 19:00, 19:00 - 21:00"
+                }
+            ],
+            "closure_schedule": "Saturday, 2 April 2022 - Monday, 4 April 2022 - Monday, 18 April 2022 - Saturday, 1 October 2022 - Monday, 3 October 2022 - Monday, 17 October 2022 - Saturday, 24 December 2022 - Saturday, 31 December 2022"
+        },
+        {
+            "name": "Salt Lake Temple",
+            "address": "50 W North Temple St",
+            "phone": "841-509-709",
+            "picture": "Images/temples/saltLake.jpg",
+            "email": "saltlake_temple@churchofjesuschrist.org",
+            "services": "Distribution center nearby",
+            "history": [
+                {
+                    "announced": "28 July 1847",
+                    "groundbreaking": "14 February 1853",
+                    "dedicated": "6 April 1893"
+                }
+            ],
+            "ordinance_schedule": [
+                {
+                    "between_week": "9:00 AM to 8:00 PM",
+                    "weekends": "6:00 AM to 9:00 PM"
+                }
+            ],
+            "session_schedule": [
+                {
+                    "between_week": "9:00 - 11:00, 11:00 - 13:00, 14:00 - 16:00, 16:00 - 18:00, 18:00 - 20:00",
+                    "weekends": "6:00 - 8:00, 8:00 - 10:00, 10:00 - 12:00, 13:00 - 15:00, 15:00 - 17:00, 17:00 - 19:00, 19:00 - 21:00"
+                }
+            ],
+            "closure_schedule": "Temple Closed for Renovation"
+        }
+    ]
+}
