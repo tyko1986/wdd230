@@ -1,6 +1,6 @@
 /******** TEMPLES CARDS ***********/
 
-const templeApi = "https://github.com/tyko1986/wdd230/blob/main/temple/JSON/temples.JSON";
+const templeApi = "https://github.com/tyko1986/wdd230/blob/main/temple/JSON/temples.json";
 const cards = document.querySelector('.templeCard');
 
 fetch(templeApi)
