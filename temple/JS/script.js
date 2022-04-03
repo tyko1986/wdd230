@@ -225,13 +225,9 @@ function displayTemples(){
   let picture = document.createElement('img');
   let email = document.createElement('p');
   let services = document.createElement('p');
-  let announced = document.createElement('p');
-  let groundbreaking = document.createElement('p');
-  let dedicated = document.createElement('p');
-  let ordinances_week = document.createElement('p');
-  let ordinances_weekends = document.createElement('p');
-  let sessions_week = document.createElement('p');
-  let sessions_weekends = document.createElement('p');
+  let history = document.createElement('p');
+  let ordinances = document.createElement('p');
+  let sessions = document.createElement('p');
   let closure = document.createElement('p');
 
   //Add the text content to each elemnt
@@ -244,27 +240,25 @@ function displayTemples(){
   picture.setAttribute('loading','lazy');
   email.textContent = temples.email
   services.textContent = temples.services;
-  announced.textContent = temples.history[0].announced;
-  groundbreaking.textContent = temples.history[0].groundbreaking;
-  dedicated.textContent = temples.history[0].dedicated;
-  ordinances_week.textContent = temples.ordinances_schedule[0].between_week;
-  ordinances_weekends.textContent = temples.ordinances_schedule[0].weekends;
-  sessions_week.textContent = temples.session_schedule[0].between_week;
-  sessions_weekends.textContent = temples.session_schedule[0].weekends;
+  history.innerHTML = `,History: Announced: ${temples.history[0].announced} - Groundbreaking: ${temples.history[0].groundbreaking} - Dedicated: ${temples.history[0].dedicated}`;
+  ordinances.textContent = `Ordinances: Tuesday to Friday: ${temples.ordinances_schedule[0].between_week} - Saturday: ${temples.ordinances_schedule[0].weekends}`;
+  sessions.textContent = `Sessions: Tuesday to Friday: ${temples.session_schedule[0].between_week} - Saturday: ${temples.session_schedule[0].weekends}`;
   closure.textContent = temples.closure_schedule;
 
+// add the elements to the card
 
+  card.appendChild(name);  
+  card.appendChild(address);
+  card.appendChild(phone);  
+  card.appendChild(picture);
+  card.appendChild(email);
+  card.appendChild(services);
+  card.appendChild(history);  
+  card.appendChild(ordinances);
+  card.appendChild(sessions);
+  card.appendChild(closure);
 
-
-
-  
-
-
-
-  
-
-
-
+  cards.appendChild(card);
   
 
 
