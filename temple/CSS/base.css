@@ -161,8 +161,8 @@ nav ul {
 
   .actionBtn{
   position: absolute;
-  top: 45%;
-  left: 20%;
+  top: 50%;
+  left: 35%;
   background-color: var(--blue);
   opacity: 0.6;
   padding: .5rem;
@@ -300,3 +300,263 @@ nav ul {
  .footer1{
    margin-bottom: 2rem;
  }
+
+
+ /*** TEMPLE PAGE ***/
+
+ .templeMain{
+   display: flex;
+   flex-direction: column;
+ }
+
+#templeCard h2{
+  text-shadow: 5px 5px 5px var(--blue);
+  text-align: center;
+}
+
+
+ #templeCard{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+ }
+
+ #templeCard section{
+   margin: 1rem;
+   padding: 1rem 2rem;
+   background-color: var(--pink);
+   border: 2px solid var(--blue);
+ }
+
+ #templeCard p{
+   font-size: 1rem;
+
+ }
+
+ #templeCard img{
+   width: 100%;
+   margin: 1rem auto;
+   border: 1px solid black;
+  box-shadow: 10px 10px 10px var(--green);
+  border-radius: 10px;
+ }
+
+ #templeCard button:hover{
+   cursor: pointer;
+ }
+
+ #templeCard .liked{
+   background-color: var(--grey);  
+ }
+
+ #templeCard h2, p{
+   color: black;
+ }
+
+
+ /***** RESERVATIONS    ******/
+
+ .titlesReservations{
+   text-align: center;
+ }
+
+ .titlesReservations img{
+   display: none;
+ }
+
+ .mainReservations{
+  max-width: 1000px;
+  margin: auto;
+  }
+
+  .mainReservations form{
+    margin: 0 auto;
+  }
+
+
+
+form fieldset{
+  margin: 2rem 0;
+  border: 2px solid var(--blue);
+  border-radius: 10px;
+}
+
+form legend {
+  color: var(--blue);
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-family: var(--headerFont);
+}
+
+form label{
+  font-family:var(--headerFont);
+  font-weight: bold;
+
+}
+
+form input, select, textarea {
+  -wekit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 2px solid var(--grey);
+  border-radius: 4px;
+  padding: .75rem;
+  color: var(--blue);
+  font-weight: 800;
+  width: 90%;
+  max-width: 20rem;
+  background-color: var(--pink);
+  font-family: var(--mainFont);
+  margin-bottom: 1rem;
+}
+
+
+
+form fieldset{
+  margin: 1.5rem 0 1.5rem 0;
+  font-weight: 800;
+}
+
+
+
+form input.submit {
+  border: none;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 1rem auto;
+  width: 96%;
+  max-width: 20rem;
+  font-weight: bold;
+  font-family: "Be Vietnam Pro", "sans-serif";
+}
+
+
+
+form input:required:valid, select:valid {
+  border-left: 6px solid green;
+  border-color: green;
+}
+
+/******  THANK YOU PAGE *****/
+
+.mainThankyou{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Be Vietnam Pro", "sans-serif";
+}
+
+.mainThankyou img{
+  margin: 1rem auto;
+  width: 13em;
+  max-width: 30em;
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+
+.mainThankyou h1{
+  font-size: 1.8em;
+  margin: .5em;
+}
+
+.mainThankyou h2{
+  font-size: 1.3em;
+  margin: .5em;
+}
+
+.mainThankyou h3{
+  font-size: 1em;
+  margin: .5em;
+}
+
+/***** SERVICES   *****/
+
+#title{
+  text-align: center;
+}
+ .mainServices div{
+ 
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.mainServices  h3{
+margin: 1rem auto;
+text-align: center;
+
+}
+
+.mainServices img{
+  display: block;
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 450px;
+  border: 10px double var(--grey)
+}
+
+.services ul{
+  margin:1rem 1rem 1rem .5rem;
+  text-align: justify;
+}
+
+
+.receptionBtn, .contactBtn{
+display: block;
+padding: 0.5rem;
+border-radius: 10px;
+background-color: var(--blue);
+color: white;
+font-size: 1.5rem;
+text-decoration: none;
+text-align: center;
+}
+
+.receptionBtn:hover, .contactBtn:hover{
+background-color: var(--pink);
+color: var(--blue);
+}
+
+/******* RECEPTIONS  *********/
+
+.mainReceptions h3{
+  text-align: center;
+}
+
+.mainReceptions p, ul{
+  text-align: justify;
+  margin: 1rem;
+}
+
+.mainReceptions img{
+  display: block;
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 450px;
+  border: 10px double var(--green);
+}
+
+.mainReceptions div{
+  margin: 2rem;
+  padding: 1rem;
+}
+
+/******* CONTACT  *******/
+
+.mainContact h3, p{
+  text-align: center;
+  margin: 1rem;
+}
+
+.mainContact img{
+  display: block;
+  max-width: 250px;
+  margin: 1rem auto;
+} 
+
+.mainContact form{
+  max-width: 400px;
+  margin: 1rem auto;
+}

@@ -20,8 +20,8 @@
 }
 
     .actionBtn{
-        top: 60%;
-        left: 70%;
+        top: 73%;
+        left: 40%;
         font-size: 1.3rem;
         }
 
@@ -122,6 +122,118 @@
     width: 3rem;
     border-radius: 100%;
   }
+
+
+
+/****   RESERVAIONS *****/
+
+.mainReservations form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content{
+  margin: 1rem;
+}
+
+.submit{
+  grid-column: 1/ span 2;
+}
+
+/***** SERVICES   *****/
+
+.mainServices div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mainServices div h3{
+  grid-area: 1/1/2/3;
+  font-size: 1.5rem;
+}
+
+.mainServices div img, a, ul{
+justify-self: center;
+align-self: center;
+}
+
+.amenities img{
+  grid-area: 2/1/3/2;
+}
+
+.receptions img{
+  grid-area: 2/2/3/3;
+}
+
+.mainServices ul{
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+
+
+/****** RECEPTIONS   *******/
+
+.mainReceptions div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mainReceptions div h3{
+  grid-area: 1/1/2/3;
+  font-size: 1.5rem;
+}
+
+.headlines p{
+  grid-area: 2/1/3/3;
+  text-align: center;
+}
+
+.info{
+  justify-self: center;
+  align-self: center;
+}
+.mainReceptions div img, a, ul{
+justify-self: center;
+align-self: center;
+}
+
+.rooms img{
+  grid-area: 2/1/3/2;
+}
+
+.food img{
+  grid-area: 2/2/3/3;
+}
+
+.otherServices img{
+  grid-area: 2/1/3/2;
+}
+
+.mainReceptions ul{
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.mainReceptions p{
+  font-size: 1.3rem;
+}
+
+
+
+/*******  CONTACT  *****/
+
+.mainContact{
+
+  display: flex;
+}
+
+.mainContact form{
+  width: 450px;
+  
+}
+
+
 
 
 }
