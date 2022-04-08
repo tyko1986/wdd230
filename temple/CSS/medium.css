@@ -19,8 +19,11 @@
 
 }
 
+.heroImageFigure{
+  position: relative;
+}
     .actionBtn{
-        top: 73%;
+        top: 85%;
         left: 40%;
         font-size: 1.3rem;
         }
