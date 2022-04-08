@@ -28,7 +28,7 @@
 
 
 #alert{
-  
+  color: white;
   margin: 0;
   position: relative;
   animation: alertMessage 15s infinite;
