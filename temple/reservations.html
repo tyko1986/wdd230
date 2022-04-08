@@ -9,11 +9,16 @@
       content="Home Page of the Temple Inn & Suites Web Site"
     />
     <script defer src="JS/reservations.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=EB+Garamond:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=EB+Garamond:ital,wght@0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="CSS/base.css" />
     <link rel="stylesheet" href="CSS/medium.css" />
@@ -30,39 +35,46 @@
           alt="The Temple Inn & Suites Hotel Logo"
         />
         <h1>The Temple Inn & Suites Hotel</h1>
-          <p class="datenbtn" id="today_date"></p>
-          
-        
+        <p class="datenbtn" id="today_date"></p>
       </div>
-    <div class="headerMenu">
-      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>    
-      <nav class="menu">
-        <ul id="primaryNav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="temple.html">Temple</a></li>
-          <li><a href="reservations.html">Reservations</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </nav>
-    </div> 
+      <div class="headerMenu">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <nav class="menu">
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-<main class="mainReservations">
+    <main class="mainReservations">
+      <div class="titlesReservations">
+        <h1>Welcome to the Temple Inn & Suites Hotel</h1>
+        <h2>We are proud to be your hosts</h2>
+        <h3>Please fill out our Reservation Form</h3>
+      </div>
 
-  <div class="titlesReservations">
-    <h1>Welcome to the Temple Inn & Suites Hotel</h1>
-    <h2>We are proud to be your hosts</h2>
-    <h3>Please fill out our Reservation Form</h3>
-  </div>
-    
-
-    <form method="get" action="thankyou.html">
-
+      <form method="get" action="thankyou.html">
         <fieldset class="content">
           <legend>Pesonal Information</legend>
-          <label>First Name * <input class="required" type="text" name="fname" required></label><br>
-          <label>Last Name * <input class="required" type="text" name="lname" required></label><br>
-          <label>E-mail * <input class="required" type="email" name="email" required></label><br>
-          <label>Phone Number <input type="tel" name="phone" placeholder="XXX-XXX-XXXX"></label>
+          <label
+            >First Name *
+            <input class="required" type="text" name="fname" required /></label
+          ><br />
+          <label
+            >Last Name *
+            <input class="required" type="text" name="lname" required /></label
+          ><br />
+          <label
+            >E-mail *
+            <input class="required" type="email" name="email" required /></label
+          ><br />
+          <label
+            >Phone Number
+            <input type="tel" name="phone" placeholder="XXX-XXX-XXXX"
+          /></label>
         </fieldset>
 
         <fieldset class="content">
@@ -75,20 +87,35 @@
             <option value="Monterrey">Monterrey</option>
             <option value="Recife">Recife</option>
             <option value="Salt Lake">Salt Lake</option>
-          </select> 
+          </select>
 
-          <br><label>Please select the days your are staying *</label> <br>
-          <label >Check in: <input class="required" type="date" name="checkInDate" required></label> <br>
-          <label >Check out: <input class="required" type="date" name="checkInDate" required></label> <br>
+          <br /><label>Please select the days your are staying *</label> <br />
+          <label
+            >Check in:
+            <input class="required" type="date" name="checkInDate" required
+          /></label>
+          <br />
+          <label
+            >Check out:
+            <input class="required" type="date" name="checkInDate" required
+          /></label>
+          <br />
         </fieldset>
 
-
         <fieldset class="content">
-            <legend>Room Selection</legend>
+          <legend>Room Selection</legend>
 
           <label>Rooms required *</label>
-          <input type="number" id="numberRooms" name="numberOfRooms" min="1" max="10" value="0" required><br>
-          
+          <input
+            type="number"
+            id="numberRooms"
+            name="numberOfRooms"
+            min="1"
+            max="10"
+            value="0"
+            required
+          /><br />
+
           <label>All our rooms are none smoking</label>
           <label>Please Select your room *</label>
           <select name="room" id="roomSelection" required>
@@ -98,8 +125,7 @@
             <option value="Monterrey">Jr. Suite</option>
             <option value="Recife">Suite</option>
             <option value="Salt Lake">Grand Suite</option>
-          </select> 
-
+          </select>
         </fieldset>
 
         <fieldset class="content">
@@ -108,48 +134,51 @@
           <textarea name="comments" rows="4" cols="30"></textarea>
         </fieldset>
 
-      
-
-        <input class="submit" type="submit" name="submit" value="Make my Reservation">  
-
-        
-      </form>   
-
-
-</main>
-   
-
+        <input
+          class="submit"
+          type="submit"
+          name="submit"
+          value="Make my Reservation"
+        />
+      </form>
+    </main>
 
     <footer>
       <div class="footer1">
         <img
-        class="footerLogo"
-        src="Images/Logos/logo_small_icon_only_inverted.png"
-        alt="The Temple Inn & Suites Hotel Logo"
-      />
-      <div class="hotelData">
-        <div class="address">
-          <p>Temple Inn & Suites</p>
-          <p>4800 Montgomery Ln #300</p>
-          <p>Bethesda, MD 20814</p>
-          <p>United States</p>
-        </div>
-        <div class="contactInfo">
-          <p>Ph. 301-656-1500</p>
-          <p>wwww.templeinnsuites.com</p>
-          <p>info@templeinnsuites.com</p>
-          <a href="https://goo.gl/maps/a46FqL5jhoioq7uE6"><i class='fa-solid fa-location-dot' style='color:#476a6f'></i> &#9736; - Here we are</a>
+          class="footerLogo"
+          src="Images/Logos/logo_small_icon_only_inverted.png"
+          alt="The Temple Inn & Suites Hotel Logo"
+        />
+        <div class="hotelData">
+          <div class="address">
+            <p>Temple Inn & Suites</p>
+            <p>4800 Montgomery Ln #300</p>
+            <p>Bethesda, MD 20814</p>
+            <p>United States</p>
+          </div>
+          <div class="contactInfo">
+            <p>Ph. 301-656-1500</p>
+            <p>wwww.templeinnsuites.com</p>
+            <p>info@templeinnsuites.com</p>
+            <a href="https://goo.gl/maps/a46FqL5jhoioq7uE6"
+              ><i class="fa-solid fa-location-dot" style="color: #476a6f"></i>
+              &#9736; - Here we are</a
+            >
+          </div>
         </div>
       </div>
-      
-      </div>
-      
+
       <div class="footer2">
         <div class="socialIcons">
           <a href="faceboook.com">
-            <img class="facebookIcon" src="Images/face.png" alt="facebook icon" />
+            <img
+              class="facebookIcon"
+              src="Images/face.png"
+              alt="facebook icon"
+            />
           </a>
-  
+
           <a href="Instagram.com">
             <img
               class="instagramIcon"
